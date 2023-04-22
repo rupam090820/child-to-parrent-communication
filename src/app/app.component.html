@@ -1,0 +1,9 @@
+<h1>this is a app component</h1>
+<div class="form-group">
+ 
+    <label>name:--</label>
+    <input type="text" value="" class="form-control" name="name-filed" #n1>
+    <button class="btn btn-lg btn-success" (click)="send(n1)">click here</button>
+  
+</div>
+<app-child [parentdata]="message"></app-child>
